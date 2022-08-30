@@ -4,7 +4,7 @@ function hawthornelogistics_script()
 {
 ?>
 <!-- Google Place Api added -->
-<script   type='text/javascript' src='https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eC9mylX4YJJMlWCiRpKZB8k1VmFeqdA&#038;libraries=places&#038;language=en&#038;ver=1' id='google_autocomplete-js'></script>
+<script   type='text/javascript' src='https://maps.googleapis.com/maps/api/js?key={your-api-key}&#038;libraries=places&#038;language=en&#038;ver=1' id='google_autocomplete-js'></script>
 <script>
 jQuery(document).ready(function($) {
     jQuery(document).on('gform_post_render', function(event, form_id, current_page) {
